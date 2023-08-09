@@ -145,6 +145,7 @@ p {
     grid-row:1;
     font-size: 22px;
     padding-bottom:2px;
+    white-space: nowrap;
 }
 .header ul{
     grid-column: 2/4;
@@ -152,6 +153,10 @@ p {
     grid-template-columns: 1fr 1fr;
     margin-top:4px;
     text-align: center;
+}
+
+.header li {
+    white-space: nowrap;
 }
 
 .header_introduce{
